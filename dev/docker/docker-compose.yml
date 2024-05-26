@@ -1,8 +1,6 @@
-version: '3.8'
-
 services:
   database:
-    container_name: ledger-database
+    container_name: demo-database
     image: postgres:15
     environment:
       POSTGRES_USER: demo
