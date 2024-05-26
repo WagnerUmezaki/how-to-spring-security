@@ -22,3 +22,6 @@ spring:
             non_contextual_creation: true
   liquibase:
     change-log: db/changelog/db.changelog-master.xml
+
+jwt:
+  secret:
